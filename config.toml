@@ -1,0 +1,23 @@
+baseurl = "https://bells17.github.io/"
+languageCode = "ja"
+title = "bells17"
+theme = "beautifulhugo"
+
+[Params]
+  logo = "img/avatar-icon.png"
+  # subtitle = "bells17's blog"
+
+[Author]
+  name = "bells17"
+  github = "bells17"
+  twitter = "bells17_"
+
+# [[menu.main]]
+#     name = "Blog"
+#     url = "/"
+#     weight = 1
+
+# [[menu.main]]
+#     name = "About"
+#     url = "/page/about/"
+#     weight = 2
