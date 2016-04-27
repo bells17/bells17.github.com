@@ -32,3 +32,5 @@ a = [1, 2].map (v)-> v+1
 ```js
 a = [1, 2].map(function(v) { return v+1; })
 ```
+
+aaaaaaaaaaaaaa
