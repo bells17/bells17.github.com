@@ -1,0 +1,26 @@
+{{ partial "head.html" . }}
+<article>
+    <h1>{{ .Title }}</h1>
+ 
+    <!-- 記事10件を抽出してlist_tag.htmlのレイアウトで表示 -->
+    {{ range (.Paginator 10).Pages }}
+        {{ .Render "list_tag" }}
+    {{ end }}   
+ 
+    <!-- 記事の前後に移るためのページネータを作成 -->
+    {{ if or (.Paginator.HasPrev) (.Paginator.HasNext) }}
+    <div>
+        <nav role="pagination">
+            {{ if .Paginator.HasPrev }}
+            <a href="{{ .Paginator.Prev.URL }}" class="">前へ</a> 
+            {{ end }}
+            <span class="">Page {{ .Paginator.PageNumber }} of {{ .Paginator.TotalPages }}</span>
+            {{ if .Paginator.HasNext }}
+             <a href="{{ .Paginator.Next.URL }}" class="">次へ</a>
+            {{ end }}
+        </nav>
+    </div>
+    {{ end }}
+ 
+</article>
+{{ partial "header.html" . }}
