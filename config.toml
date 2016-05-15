@@ -21,3 +21,8 @@ theme = "beautifulhugo"
 #     name = "About"
 #     url = "/page/about/"
 #     weight = 2
+
+[Indexes]
+tag = "tags"
+category = "categories"
+series = "series"
