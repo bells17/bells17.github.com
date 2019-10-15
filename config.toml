@@ -16,7 +16,6 @@ copyright = "Copyright (c) 2019, bells17; all rights reserved."
     # facebook = "Your Facebook username"
     # reddit = "Your Reddit username"
     # hackernews = "Your Hacker News username"
-    # stackoverflow = "Your Stackoverflow user id (number)"
     # keybase = "Your keybase.io username"
     # instagram = "Your Instagram username"
     # Disqus shortname
@@ -33,5 +32,6 @@ copyright = "Copyright (c) 2019, bells17; all rights reserved."
 
 		twitter = "bells17_"
     github = "bells17"
+		stackoverflow = "5197060"
 		# Google Analytics API key.
-    ga_api_key = "Your Google Analytics tracking id"
+    ga_api_key = "UA-150092368-1"
