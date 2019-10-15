@@ -1,28 +1,37 @@
-baseurl = "https://bells17.github.io/"
-languageCode = "ja"
-title = "bells17"
-theme = "beautifulhugo"
+theme = "vienna"
 
-[Params]
-  logo = "img/avatar-icon.png"
-  # subtitle = "bells17's blog"
+baseurl = "https://bells17.github.io"
+languageCode = "ja-jp"
+title = "bells17's Blog"
 
-[Author]
-  name = "bells17"
-  github = "bells17"
-  twitter = "bells17_"
+# Copyright notice. This is displayer in the footer.
+copyright = "Copyright (c) 2019, bells17; all rights reserved."
 
-# [[menu.main]]
-#     name = "Blog"
-#     url = "/"
-#     weight = 1
+[params]
+    # Social accounts. Link to these accounts are displayed in the header and
+    # footer.
+    # gitlab = "Your GitLab username"
+    # linkedin = "Your LinkedIn username"
+    # googleplus = "Your Google+ user id"
+    # facebook = "Your Facebook username"
+    # reddit = "Your Reddit username"
+    # hackernews = "Your Hacker News username"
+    # stackoverflow = "Your Stackoverflow user id (number)"
+    # keybase = "Your keybase.io username"
+    # instagram = "Your Instagram username"
+    # Disqus shortname
+    # disqus = "Your disqus shortname"
+    # Mixpanel API key.
+    # mixpanel_api_key = "Your Mixpanel API key"
+    # author = "bells17"
+    # avatar = "/path/to/avatar"
+    # contact = "Your contact link (ex. mailto:foo@example.com)"
+    # bio = "Your short bio"
+    # Short subtitle/tagline. This is displayed in the header.
+    # subtitle = "bells17's Blog"
+    # themecolor = "#hexcolor" # Defines the tab color in Chrome for Android.
 
-# [[menu.main]]
-#     name = "About"
-#     url = "/page/about/"
-#     weight = 2
-
-[Indexes]
-tag = "tags"
-category = "categories"
-series = "series"
+		twitter = "bells17_"
+    github = "bells17"
+		# Google Analytics API key.
+    ga_api_key = "Your Google Analytics tracking id"
