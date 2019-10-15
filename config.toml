@@ -1,6 +1,6 @@
 theme = "vienna"
 
-baseurl = "https://bells17.io/"
+baseurl = "/"
 languageCode = "ja-jp"
 title = "bells17's Blog"
 
