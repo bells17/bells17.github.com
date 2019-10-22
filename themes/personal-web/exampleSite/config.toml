@@ -1,18 +1,17 @@
-baseURL = "https://bells17.io/"
-languageCode = "ja-jp"
-title = "bells17"
+baseURL = "https://example.com/"
+languageCode = "en-us"
+title = "Edna West"
 theme = "personal-web"
-copyright="© bells17"
-
-googleAnalytics = "UA-150092368-1"
+copyright="© Edna West"
+googleAnalytics = ""
 enableEmoji=true
 enableRobotsTXT=true
 pygmentsUseClasses=true
 pygmentsCodeFences=true
 
 [params.intro]
-  main = "Hi, I'm bells17 :wave:"
-  sub = "I'm a Kubernetes, Infreastracture, Site Reliability & Software Engineer"
+  main = "Hi, I'm Edna :wave:"
+  sub = "I'm a Web Developer and Entrepreneur"
 
 [taxonomies]
   design = "designs"
@@ -40,22 +39,22 @@ pygmentsCodeFences=true
 [params.sidebar]
   backgroundImage = '' # header background image - default "/images/default_sidebar.jpg" - Photo by Tim Marshall on Unsplash
   gradientOverlay = '' # default: rgba(0,0,0,0.4),rgba(0,0,0,0.4)
-  logo = "https://avatars3.githubusercontent.com/u/2158863?s=460&v=4" # - default "/images/edna-west.jpg"
+  logo = "" # - default "/images/edna-west.jpg"
 [params.assets]
   favicon = ""
   customCSS = ""
 
 [params.social]
-  github = "https://github.com/bells17"
-  twitter = "https://twitter.com/bells17_"
-  # linkedin = "https://www.linkedin.com/in/"
-  medium = "https://medium.com/@bells17"
-  # codepen = "https://codepen.io/"
-  # facebook = "https://www.facebook.com/"
-  # youtube = "https://www.youtube.com/"
-  # instagram = "https://www.instagram.com/"
-  # gitlab = "https://gitlab.com/"
-  # keybase = "https://keybase.io/"
+  github = "https://github.com/"
+  twitter = "https://twitter.com/"
+  linkedin = "https://www.linkedin.com/in/"
+  medium = "https://medium.com/"
+  codepen = "https://codepen.io/"
+  facebook = "https://www.facebook.com/"
+  youtube = "https://www.youtube.com/"
+  instagram = "https://www.instagram.com/"
+  gitlab = "https://gitlab.com/"
+  keybase = "https://keybase.io/"
 
 [params.contact]
   email = ""
@@ -78,12 +77,12 @@ pygmentsCodeFences=true
   url = "/portfolio/"
   weight = -110
 
-# [[menu.main]]
-#   identifier = "blog"
-#   name = "Post"
-#   title = "Blog section"
-#   url = "/post/"
-#   weight = -100
+[[menu.main]]
+  identifier = "blog"
+  name = "Post"
+  title = "Blog section"
+  url = "/post/"
+  weight = -100
 
 [sitemap]
   changefreq = "monthly"
